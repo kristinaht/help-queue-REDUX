@@ -21,7 +21,7 @@ describe('ticketListReducer', () => {
   });
 
   test('Should successfully add new ticket data to masterTicketList', () => {
-    const {names, location, issue, id } = currentState;
+    const {names, location, issue, id } = currentState; 
     action = {
       type: 'ADD_TICKET',
       names: names,
